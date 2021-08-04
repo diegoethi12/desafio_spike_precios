@@ -8,9 +8,9 @@ El jupyter notebook está creado sobre python 3.8 por lo que recomiendo crear un
 ```
 conda create -n desafio-spike-precios python=3.8
 ```
-Las librerías y versiones utilizadas están en el archivo `requirements.txt`.
+Las librerías y versiones utilizadas están en el archivo `requirements.txt`. Es común que Prophet arroje warnings, pero se instalará de igual forma.
 ```
-conda activate desafio-spike-precios
+conda activate desafio-spike-precios  
 pip install -r requirements.txt
 ```
 Por último, recomiendo abrir el notebook con jupyter notebook para asegurar la visualización de gráficos (no puedo asegurar visualización usando jupyter lab sin algunas configuraciones extras).
